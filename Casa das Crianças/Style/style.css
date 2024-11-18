@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family= Krona +One & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #99cc0d;
+    color: #fffefe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+    background-color: #0277bd;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.h2 {
+    color: #a4fc01;
+}
+
+.section {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #01579b;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.educador__dados p{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.atividades {
+    margin-top: 20px;
+}
+
+.form__container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #0277bd;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #0277bd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0277bd;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #01579b;
+}
+
+.lista__atividades ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista__atividades li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.lista__atividades button {
+    background-color: #0288d1;
+    padding: 5px 10px;
+}
+
+.lista__atividades button:hover {
+    background-color: #0277bd;
+}
